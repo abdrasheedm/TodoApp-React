@@ -47,7 +47,7 @@ export default class ToDo extends Component {
     return (
       <div className="todo-containter">
         <form className="input-section" onSubmit={this.storeItems}>
-        <h1>ToDo App</h1>
+        <h1>ToDo App</h1> 
           <input type="text" value={input} onChange={this.handleChange} placeholder="Enter items..."/>
           </form>
 
